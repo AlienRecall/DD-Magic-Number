@@ -81,6 +81,3 @@ class DatadomeMagicNumber:
             u += 1
 
         return o
-
-
-# result 176522849 or 172685945
