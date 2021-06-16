@@ -71,7 +71,6 @@ func (ddmn *DatadomeMagicNumber) second(r, t int) int {
 }
 
 func (ddmn *DatadomeMagicNumber) third(r, t int) int {
-	fmt.Println(r, t)
 	e := 0
 	n := ddmn.language[:2] + strconv.Itoa(t)
 	for a := 0; a < len(n); a++ {
@@ -79,7 +78,6 @@ func (ddmn *DatadomeMagicNumber) third(r, t int) int {
 		e = (e << 3) - e + int([]rune(n)[a])
 		e = (e & e) >> a
 	}
-	fmt.Println(e)
 
 	return e
 }
