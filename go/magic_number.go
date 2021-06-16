@@ -7,8 +7,6 @@ import (
 	"strconv"
 )
 
-var errGetMN = errors.New("Error getting magic number")
-
 type E struct {
 	seed            int
 	currentNumber   int
