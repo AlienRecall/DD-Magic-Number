@@ -13,5 +13,5 @@ func TestMagicNumber(t *testing.T) {
 		userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36",
 	}
 	magicNumber := ddmn.Generate()
-	t.Logf("%d", magicNumber)
+	t.Logf("%d", magicNumber) //181129178
 }
