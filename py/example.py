@@ -2,8 +2,8 @@ from magic_number import DatadomeMagicNumber
 
 print(
     DatadomeMagicNumber(
-        ".ElKj.sbq.LMi-Krx_SrEF2o5x~vWW0cfjFtl~dFHuQ7iyX50oUBLNxM1UcJu8n0R9oMkY5fisF-ZZ~NXCdTaEZsKZTIk_W.hG9PRq1jqwe9kEJBwKL3.TTI2xxljlKL",
+        ".AmpSWXKxiOOE-dZx0XOos9WBjFdz5sINnD4ma-tBP2mzH3wZlSTjDWQ-vS9-W2Vif7SLH8o~CKpsVhkWh2apXl03PnDfJl7i0N_nBvDiZg_9JhGz0biH6qc~uU8gu.g",
         10,
-        "GoogleBot",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36",
     ).Generate()
-)
+) #181129178
